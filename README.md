@@ -2,7 +2,7 @@
 
 Gruvbox vibes for tmux!
 
-## Features
+## ✨ Features
 
 - Session name in status left
 - Nice window indicator with default orange accent
@@ -10,7 +10,16 @@ Gruvbox vibes for tmux!
 - Zoomed indicator to never forget again about your invisible panes!
 - Some degree of style customization!
 
-## Configuration
+## 📦 Installation
+
+Requires a [nerd-font](https://www.nerdfonts.com/font-downloads) compatible font.
+
+Install with [TPM](https://github.com/tmux-plugins/tpm)
+```
+set -g @plugin 'Diaoul/gruvbox.tmux'
+```
+
+## ⚙️ Configuration
 
 Configuration options below with their default value.
 
@@ -27,9 +36,11 @@ set -g @gruvbox_window_inactive_background_color "$thm_dark_blue"
 set -g @gruvbox_status_left_separator ""
 ```
 
-## Examples
+## 🤩 Examples
 
 ### Default configuration
+
+![2023-12-31-173019_hyprshot](https://github.com/Diaoul/gruvbox.tmux/assets/319220/bd4a7df8-5ea2-43c5-b1eb-14b630913e76)
 
 ### Single color
 
@@ -40,7 +51,11 @@ set -g @gruvbox_window_inactive_color "thm_fg"
 set -g @gruvbox_window_inactive_background_color "thm_bg1"
 ```
 
-## 🤝Thanks
+![2023-12-31-171954_hyprshot](https://github.com/Diaoul/gruvbox.tmux/assets/319220/f34efa6d-fac5-40b2-b7a8-2e37052d5bf0)
+
+![2023-12-31-172016_hyprshot](https://github.com/Diaoul/gruvbox.tmux/assets/319220/04bfa4f6-81f8-4143-b0d4-3fe07297a879)
+
+## 🤝 Thanks
 
 Inspiration taken from various themes, in particular:
 
@@ -48,6 +63,6 @@ Inspiration taken from various themes, in particular:
 - [tokyo-night-tmux](https://github.com/janoamaral/tokyo-night-tmux/)
 - [tmux-power](https://github.com/wfxr/tmux-power)
 
-## Contributing
+## 📚 Contributing
 
 As this project currently fits my needs, I don't plan to add any new features besides my personal needs but I will gladly accept pull requests that do so!
